@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
+
 export class Tab1Page {
 
 	private can_message:boolean;
@@ -14,7 +15,7 @@ export class Tab1Page {
 	private daily_limit:number = 2;
 	private current_opinion:boolean;
 	private has_opinionated:boolean = true;
-	
+
 
 	constructor() {
 
@@ -40,6 +41,7 @@ export class Tab1Page {
 		
 		if (this.has_opinionated) {
 			this.nextItem();
+			// HHI CHUCKIE YOU SLAG
 		}
 	}
 
