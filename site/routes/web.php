@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/blog', 'PageController@showBlog')->name('blog');
+Route::get('/blog/{blog}', 'PageController@showBlogItem')->name('blog-item');
