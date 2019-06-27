@@ -81,7 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel - {{ $test }}
+                    <br>
+                    @foreach ($categories as $category)
+                        {{ $category->name }} <br>
+                    @endforeach
                 </div>
 
                 <div class="links">
